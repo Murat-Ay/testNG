@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de87d5ae-c0b4-412b-bde8-45f68c6412ca" name="Changes" comment="" />
+    <list default="true" id="de87d5ae-c0b4-412b-bde8-45f68c6412ca" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day14_dependsOnMethods_softAssert/C03_SoftAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day14_dependsOnMethods_softAssert/C03_SoftAssert.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +26,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Gqt5BcSBjiF477CKoZuNHYbd7H" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>

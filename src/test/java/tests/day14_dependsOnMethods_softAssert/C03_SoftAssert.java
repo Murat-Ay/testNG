@@ -11,12 +11,10 @@ public class C03_SoftAssert {
         // 2- Son harf kucuk harf olmali
         // 3- sifre bosluk icermemeli
         // 4- uzunlugu en az 8 karakter olmali
-        /*
-          assertion islemi yapilirken
+        /* assertion islemi yapilirken
           ilk bulunan hatada kodun calismasi durdurulur (stop execution)
-            Assert class'indaki method'lar static olduklari icin
-            classIsmi.methodIsmi ile cagrilirlar
-         */
+          Assert class'indaki method'lar static olduklari icin
+          classIsmi.methodIsmi ile cagrilirlar        */
         String sifre="JavAahjava";
         // 1- Ilk harf Buyuk harf olmali
         boolean ilkHarfKontrolu= sifre.charAt(0)>='A' && sifre.charAt(0)<='Z';
@@ -46,8 +44,7 @@ public class C03_SoftAssert {
 
           Genellikle
           hard Assertion kullanmamiz istendiginde test edin (Test)
-          soft Assertion kullanmamiz istendiginde dogrulayin (Verify) kelimeleri kullanilir.
-         */
+          soft Assertion kullanmamiz istendiginde dogrulayin (Verify) kelimeleri kullanilir.    */
         // A.adim softAssert objesi olustur
         SoftAssert softAssert= new SoftAssert();
         // B.istenen tum assertion'lari softAssert objesini kullanarak yapin

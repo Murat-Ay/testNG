@@ -31,7 +31,7 @@ public class TestBase {
         }
     }
 
-    public void fotografCek(){
+    public void fotografCek(String eurozoneResmi){
         TakesScreenshot tss= (TakesScreenshot) driver;
         File resimDosyasi= new File("target/screnShots/tumSayfaResmi.jpeg");
         File geciciResim=tss.getScreenshotAs(OutputType.FILE);
