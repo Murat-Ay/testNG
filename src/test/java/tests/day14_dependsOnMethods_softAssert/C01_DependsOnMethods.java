@@ -14,12 +14,10 @@ public class C01_DependsOnMethods extends TestBase {
     //    nutella icin arama yapip, sonuclarin nutella icerdigini test edin
     // 3. testin ismi arama sonuc testi olsun
     //    sonuc sayisinin 100'den fazla oldugunu test edin
-    /*
-      DependsOnMethods="BagliOlunanTestAdi"
+    /*  DependsOnMethods="BagliOlunanTestAdi"
       iki test method'unu birbirine baglar
       Bu sekilde bagli olunan test failed olursa,
-      bagli olan test ignore edilir, hic calismaz
-     */
+      bagli olan test ignore edilir, hic calismaz   */
     @Test
     public void amazonTesti(){
         // 1. testin ismi amazon testi olsun,
