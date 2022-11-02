@@ -13,19 +13,18 @@ public class Q2 extends TestBase {
         =>daha sonra google'a bagimli olarak amazon'a gidin
     -driver'i kapatin.    */
 
-    @Test(dependsOnMethods = "test3")
-    public void test1 (){
-        driver.get( "http//:amazon.com" );
-
+    @Test(dependsOnMethods = "facebook")
+    public void google() {
+        driver.get( "http://google.com" );
     }
-    @Test
-    public void test2 (){
-        driver.get( "http//:google.com" );
 
+    @Test(enabled = true)
+    public void facebook() {
+        driver.get( "http://facebook.com" );
     }
-    @Test(dependsOnMethods = "test2")
-    public void test3 (){
-        driver.get( "http//:facebook.com" );
 
+    @Test(dependsOnMethods = "google")
+    public void amazon() {
+        driver.get( "http://amazon.de" );
     }
 }

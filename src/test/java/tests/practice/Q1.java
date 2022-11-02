@@ -9,8 +9,7 @@ public class Q1 {
      kucuk olan numara daha once calisir.
     > priority : TestNG testlerinde , testler konsola alfabetik sira ile yazdirilir.
     > priority default degeri sifirdir.
-    > enabled = false methodu : Testi gormezden gelmek icin @Test 'in yanina yazilir.
-     */
+    > enabled = false methodu : Testi gormezden gelmek icin @Test 'in yanina yazilir.  */
     @Test(priority = 300)
     public void b(){
     System.out.println("b");
