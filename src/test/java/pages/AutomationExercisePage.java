@@ -10,7 +10,6 @@ public class AutomationExercisePage {
     public AutomationExercisePage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
-
     @FindBy(linkText = " Signup / Login")
     public WebElement signUpLinki;
 
