@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de87d5ae-c0b4-412b-bde8-45f68c6412ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day15_pageObjectModel/C04_PagesKullanimi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day14_dependsOnMethods_softAssert/C03_SoftAssert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day14_dependsOnMethods_softAssert/C03_SoftAssert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Q2">
+  <component name="RunManager" selected="TestNG.C04_PagesKullanimi">
     <configuration name="C01_TestNGIlktest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.testNG" />
       <extension name="coverage">
@@ -51,6 +54,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests.day13_testNGFramework" />
       <option name="MAIN_CLASS_NAME" value="tests.day13_testNGFramework.C01_TestNGIlktest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_PagesKullanimi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day15_pageObjectModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day15_pageObjectModel" />
+      <option name="MAIN_CLASS_NAME" value="tests.day15_pageObjectModel.C04_PagesKullanimi" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -94,6 +114,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C04_PagesKullanimi" />
         <item itemvalue="TestNG.Q2" />
         <item itemvalue="TestNG.Q1" />
         <item itemvalue="TestNG.C01_TestNGIlktest" />

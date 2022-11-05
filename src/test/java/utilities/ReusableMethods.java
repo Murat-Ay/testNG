@@ -1,7 +1,14 @@
 package utilities;
 
 public class ReusableMethods {
-    public static void bekle(int saniye) throws InterruptedException {
-     Thread.sleep( 1000 );
+
+    public static void bekle(int saniye){
+
+        try {
+            Thread.sleep(saniye*1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
     }
 }
