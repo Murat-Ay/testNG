@@ -8,13 +8,10 @@ import utilities.Driver;
 
 public class C03_PagesKullanimi {
 
-    /*
-       Pages class'lari bir websayfasinda locate etmek istedigimiz
+    /*  Pages class'lari bir websayfasinda locate etmek istedigimiz
        webElementleri locate edip, sonrasinda ihtiyacimiz oldukca kullanmak icin olusturulur
        pages class'larinda locate edilen webElement'lere erisebilmek icin
        test class'imizda ilgili page class'indan bir obje olustururuz    */
-
-
 
     @Test
     public void test01(){
