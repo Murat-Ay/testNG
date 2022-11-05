@@ -7,8 +7,7 @@ import org.testng.annotations.Test;
 import utilities.Driver;
 
 public class C01_DriverIlkClass {
-        /*
-      POM de 4 farkli dosyadan ihtiyacimiz olan bilgileri aliriz
+        /*  POM de 4 farkli dosyadan ihtiyacimiz olan bilgileri aliriz
       1- Driver class == driver
       2- pages package altindaki page class'lari == locate
       3- configurtaion.properties dosyasi == test datalari
@@ -19,15 +18,13 @@ public class C01_DriverIlkClass {
       1- extends ile inherit edip direk kullanma
       2- class uyelerini static tanimlayip classAdi.uyeAdi seklinde kullanabiliriz
       3- istedigimiz class'dan obje olusturarak class uyelerini kullanabiliriz
-      POM 2 yontemi de kullanir.
-     */
+      POM 2 yontemi de kullanir.    */
 
     @Test
     public void test01() throws InterruptedException {
 
         Driver.getDriver().get("https://www.amazon.com");
-        /*
-          Driver class'indaki getDriver() icerisinde
+        /*    Driver class'indaki getDriver() icerisinde
           driver= new ChromeDriver(); satiri her calistiginda yeni bir driver olusturur
           yani yeni bir browser acar
           Bizim istedigimiz
@@ -42,11 +39,8 @@ public class C01_DriverIlkClass {
 
         Driver.closeDriver();
     }
-
     @Test
     public void test2(){
-
-
         Driver.closeDriver();
     }
 }

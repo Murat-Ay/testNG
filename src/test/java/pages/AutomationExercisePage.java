@@ -8,7 +8,7 @@ import utilities.Driver;
 public class AutomationExercisePage {
 
     public AutomationExercisePage(){
-        PageFactory.initElements(Driver.getDriver(),this);
+    PageFactory.initElements(Driver.getDriver(),this);
     }
     @FindBy(linkText = " Signup / Login")
     public WebElement signUpLinki;
