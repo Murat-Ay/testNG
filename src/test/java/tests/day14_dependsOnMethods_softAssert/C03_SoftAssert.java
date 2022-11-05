@@ -31,8 +31,7 @@ public class C03_SoftAssert {
     }
     @Test
     public void softAssertTesti(){
-        /*
-          jUnit'de de kullandigimiz Assert class'i ilk failed olan assertion'da
+        /*  jUnit'de de kullandigimiz Assert class'i ilk failed olan assertion'da
           calismayi durdurur ve hata mesaji verir
           Eger ilk hatada durmasini degil, devam edip sona kadar tum testleri yapmasini
           ve en sonunda durumu raporlayip, failed olan varsa
@@ -40,11 +39,9 @@ public class C03_SoftAssert {
           SoftAssert class'ini kullanabilirsiniz
           SoftAssert clas'indaki method'lar static degildir,
           SoftAssert class'indaki method'lari kullanmak icin obje olusturmaliyiz
-
-
-          Genellikle
-          hard Assertion kullanmamiz istendiginde test edin (Test)
+          Genellikle hard Assertion kullanmamiz istendiginde test edin (Test)
           soft Assertion kullanmamiz istendiginde dogrulayin (Verify) kelimeleri kullanilir.    */
+
         // A.adim softAssert objesi olustur
         SoftAssert softAssert= new SoftAssert();
         // B.istenen tum assertion'lari softAssert objesini kullanarak yapin
@@ -60,7 +57,7 @@ public class C03_SoftAssert {
         // 4- uzunlugu en az 8 karakter olmali
         softAssert.assertTrue(sifre.length()>=8, "uzunluk en az 8 karakter olmali");
         // C. Tum testler bitince, isimiz bitti yapilan tum assert'leri raporla dememiz gerekir
-        //    bir tane bile failed varsa bu satirda kodun calismasi durdurulur
+        // bir tane bile failed varsa bu satirda kodun calismasi durdurulur
 
         softAssert.assertAll();
 
