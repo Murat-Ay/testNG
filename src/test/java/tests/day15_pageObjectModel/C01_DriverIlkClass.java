@@ -26,17 +26,16 @@ public class C01_DriverIlkClass {
         Driver.getDriver().get("https://www.amazon.com");
         /*    Driver class'indaki getDriver() icerisinde
           driver= new ChromeDriver(); satiri her calistiginda yeni bir driver olusturur
-          yani yeni bir browser acar
-          Bizim istedigimiz
-          bir test calismaya basladiginda driver'a bir kere new ChromeDriver() ile deger atasin
+          yani yeni bir browser acar. Bizim istedigimiz bir test
+          calismaya basladiginda driver'a bir kere new ChromeDriver() ile deger atasin
           sonraki calistirmalarda bu satiri pass gecsin         */
+
         // arama kutusuna Nutella yazdirip aratalim
         Thread.sleep(3000);
         WebElement aramaKutusu= Driver.getDriver().findElement(By.id("twotabsearchtextbox"));
         aramaKutusu.sendKeys("Nutella"+ Keys.ENTER);
 
         Driver.getDriver().get("https://www.wisequarter.com");
-
         Driver.closeDriver();
     }
     @Test
