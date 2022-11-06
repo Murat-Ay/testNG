@@ -12,7 +12,6 @@ public class Driver {
     static WebDriver driver;
     public static WebDriver getDriver(){
 
-
         if(driver==null) {// method ilk cagrildiginda driver degeri atanmamis oldugundan deger ata
             // sonraki calistirmalarda degeri atanmis oldugundan 18.satir calismayacak
 
@@ -35,7 +34,6 @@ public class Driver {
                 default:
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
-
             }
         }
 
@@ -43,7 +41,6 @@ public class Driver {
         driver.manage().window().maximize();
         return driver;
     }
-
     public static void closeDriver(){
         if (driver!=null){
             driver.close();
