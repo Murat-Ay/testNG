@@ -5,7 +5,6 @@ import org.testng.asserts.SoftAssert;
 import pages.AutomationExercisePage;
 import utilities.Driver;
 import utilities.ReusableMethods;
-
 public class C06_AutomationExercise {
     @Test
     public void test01() {
