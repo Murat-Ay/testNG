@@ -1,5 +1,10 @@
 package utilities;
 
-public class ConfigReader {
+import java.util.Properties;
 
+public class ConfigReader {
+Properties properties;
+static {
+
+}
 }
