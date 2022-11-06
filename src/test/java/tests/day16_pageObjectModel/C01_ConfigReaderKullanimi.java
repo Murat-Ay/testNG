@@ -16,7 +16,7 @@ public class C01_ConfigReaderKullanimi {
 
 String expectedKelime=ConfigReader.getProperty( "amazonAramaKelimesi" );
 String actualAramaSonucu=amazonPage.aramaSonucElementi.getText();
-Assert.assertTrue( actualAramaSonucu.contains( "expectedKelime" ) );
+Assert.assertTrue( actualAramaSonucu.contains( expectedKelime ) );
 
 ReusableMethods.bekle( 2 );
 Driver.closeDriver();

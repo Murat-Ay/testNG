@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de87d5ae-c0b4-412b-bde8-45f68c6412ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_pageObjectModel/AutomationExerciseTest03.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day15_pageObjectModel/C06_AutomationExercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day15_pageObjectModel/C06_AutomationExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day16_pageObjectModel/C01_ConfigReaderKullanimi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day16_pageObjectModel/C01_ConfigReaderKullanimi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/Win/com.testNgPOM_Fall2022/xmlFiles/packageCalistirma.xml">
+  <component name="RunManager" selected="TestNG.deneme">
     <configuration name="C01_ConfigReaderKullanimi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.testNG" />
       <extension name="coverage">
@@ -95,16 +95,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="deneme" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.testNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.practice.*" />
+          <option name="PATTERN" value="tests.day16_pageObjectModel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice.Q2" />
+      <option name="PACKAGE_NAME" value="tests.day16_pageObjectModel" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16_pageObjectModel.deneme" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.deneme" />
+        <item itemvalue="TestNG.C01_ConfigReaderKullanimi" />
         <item itemvalue="TestNG.C:/Users/Win/com.testNgPOM_Fall2022/xmlFiles/packageCalistirma.xml" />
         <item itemvalue="TestNG.C:/Users/Win/com.testNgPOM_Fall2022/xmlFiles/classCalistirma.xml" />
-        <item itemvalue="TestNG.C01_ConfigReaderKullanimi" />
         <item itemvalue="TestNG.C04_PagesKullanimi" />
-        <item itemvalue="TestNG.Q2" />
       </list>
     </recent_temporary>
   </component>
