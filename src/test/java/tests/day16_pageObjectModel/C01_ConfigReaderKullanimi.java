@@ -1,5 +1,6 @@
 package tests.day16_pageObjectModel;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.AmazonPage;
 import utilities.ConfigReader;
@@ -13,9 +14,12 @@ public class C01_ConfigReaderKullanimi {
         AmazonPage amazonPage=new AmazonPage();
         amazonPage.aramaKutusu.sendKeys(ConfigReader.getProperty( "amazonAramaKelimesi" ));
 
+String expectedKelime=ConfigReader.getProperty( "amazonAramaKelimesi" );
+String actualAramaSonucu=amazonPage.aramaSonucElementi.getText();
+Assert.assertTrue( actualAramaSonucu.contains( "expectedKelime" ) );
 
-        ReusableMethods.bekle( 2 );
-    Driver.closeDriver();
+ReusableMethods.bekle( 2 );
+Driver.closeDriver();
     }
 
 }

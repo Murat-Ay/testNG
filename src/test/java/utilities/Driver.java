@@ -8,15 +8,20 @@ import java.time.Duration;
 
 public class Driver {
 
-
     static WebDriver driver;
     public static WebDriver getDriver(){
-        WebDriverManager.chromedriver().setup();
+
 
         if(driver==null) {// method ilk cagrildiginda driver degeri atanmamis oldugundan deger ata
             // sonraki calistirmalarda degeri atanmis oldugundan 18.satir calismayacak
-            driver = new ChromeDriver();
+          String browser =ConfigReader.getProperty( "browser" )
+            switch (browser){
+              case "chrome":
+          }
+          WebDriverManager.chromedriver().setup();
+          driver = new ChromeDriver();
         }
+
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.manage().window().maximize();
