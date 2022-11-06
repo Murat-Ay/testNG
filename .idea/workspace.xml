@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de87d5ae-c0b4-412b-bde8-45f68c6412ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day16_pageObjectModel/C01_ConfigReaderKullanimi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,24 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C04_PagesKullanimi">
+  <component name="RunManager" selected="TestNG.C01_ConfigReaderKullanimi">
+    <configuration name="C01_ConfigReaderKullanimi" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day16_pageObjectModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day16_pageObjectModel" />
+      <option name="MAIN_CLASS_NAME" value="tests.day16_pageObjectModel.C01_ConfigReaderKullanimi" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C01_TestNGIlktest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.testNG" />
       <extension name="coverage">
@@ -110,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C01_ConfigReaderKullanimi" />
         <item itemvalue="TestNG.C04_PagesKullanimi" />
         <item itemvalue="TestNG.Q2" />
         <item itemvalue="TestNG.Q1" />
