@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de87d5ae-c0b4-412b-bde8-45f68c6412ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/xmlFiles/classCalistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmlFiles/classCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xmlFiles/packageCalistirma.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/Win/com.testNgPOM_Fall2022/xmlFiles/classCalistirma.xml">
+  <component name="RunManager" selected="TestNG.C:/Users/Win/com.testNgPOM_Fall2022/xmlFiles/packageCalistirma.xml">
     <configuration name="C01_ConfigReaderKullanimi" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.testNG" />
       <extension name="coverage">
@@ -84,17 +85,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Win/com.testNgPOM_Fall2022/xmlFiles/packageCalistirma.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.practice" />
-      <option name="MAIN_CLASS_NAME" value="tests.practice.Q1" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/packageCalistirma.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -120,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Win/com.testNgPOM_Fall2022/xmlFiles/packageCalistirma.xml" />
         <item itemvalue="TestNG.C:/Users/Win/com.testNgPOM_Fall2022/xmlFiles/classCalistirma.xml" />
         <item itemvalue="TestNG.C01_ConfigReaderKullanimi" />
         <item itemvalue="TestNG.C04_PagesKullanimi" />
         <item itemvalue="TestNG.Q2" />
-        <item itemvalue="TestNG.Q1" />
       </list>
     </recent_temporary>
   </component>
