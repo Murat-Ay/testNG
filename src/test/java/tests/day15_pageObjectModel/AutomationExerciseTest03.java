@@ -1,4 +1,4 @@
-package tests;
+package tests.day15_pageObjectModel;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -39,6 +39,7 @@ public class AutomationExerciseTest03 {
         automationExercisePage.deleteAccountButton.click();
         //10. Verify that 'ACCOUNT DELETED!' is visible
         softAssert.assertTrue(automationExercisePage.accountDeletedlocation.isDisplayed());
+
 
         softAssert.assertAll();
         ReusableMethods.bekle(5);
