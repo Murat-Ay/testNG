@@ -37,6 +37,7 @@ public class C04_SoftAssert extends TestBase {
         String actualOption= select.getFirstSelectedOption().getText();
         softAssert.assertEquals(actualOption,expectedOption,"Eurozone secilemedi");
         fotografCek("EurozoneResmi");
+
         // 10. soft assert kullanarak DropDown listesinin su secenekleri oldugunu test edin "Select One", "Australia (dollar)", "Canada (dollar)","Switzerland (franc)","China (yuan)","Denmark (krone)","Eurozone (euro)","Great Britain (pound)","Hong Kong (dollar)","Japan (yen)","Mexico (peso)","Norway (krone)","New Zealand (dollar)","Sweden (krona)","Singapore (dollar)","Thailand (baht)"
         String[] expectedKurlarArr={"Select One", "Australia (dollar)", "Canada (dollar)","Switzerland (franc)","China (yuan)","Denmark (krone)","Eurozone (euro)","Great Britain (pound)","Hong Kong (dollar)","Japan (yen)","Mexico (peso)","Norway (krone)","New Zealand (dollar)","Sweden (krona)","Singapore (dollar)","Thailand (baht)"};
         List<String> expectedKurlarList= Arrays.asList(expectedKurlarArr);

@@ -8,7 +8,7 @@ import utilities.Driver;
 import utilities.ReusableMethods;
 public class C06_AutomationExercise {
 
-        // aurora1@gmail.com //123456
+        //aurora1@gmail.com //123456
         //aurora11@gmail.com //123456
         //aurora111@gmail.com //123456
         @Test
