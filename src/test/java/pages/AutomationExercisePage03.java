@@ -1,37 +1,66 @@
-package pages;
+package tests.smokeTests;
 
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+import pages.MyCoursedemyPage;
+import utilities.ConfigReader;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
-public class AutomationExercisePage03 {
+public class NegatifLoginTesti {
+    MyCoursedemyPage myCoursedemyPage=new MyCoursedemyPage();
 
-    public AutomationExercisePage03(){
-        PageFactory.initElements(Driver.getDriver(),this);
+    @BeforeClass
+    public void setup(){
+        // Mycoursedemy anasayfasina gidin
+        Driver.getDriver().get(ConfigReader.getProperty("myUrl"));
+        // login linkine basin
+        myCoursedemyPage.loginLinki.click();
     }
 
-    @FindBy(xpath = "//a[@href='/login']")
-    public WebElement signUpLinki;
 
-    @FindBy(xpath = "//h2[text()='Login to your account']")
-    public WebElement loginAccountElementi;
+    // uc farkli test method'u ile yanlis bilgilerle giris yapilamadigini test edin
+    @Test
+    public void yanlisKullaniciTesti(){
+        // 1- yanlis kullanici adi, gecerli password
+        myCoursedemyPage.emailKutusu.sendKeys(ConfigReader.getProperty("myYanlisEmail"));
+        myCoursedemyPage.passwordKutusu.sendKeys(ConfigReader.getProperty("myGecerliPassword"));
+        // Login butonuna basarak login olmaya calisin
+        myCoursedemyPage.loginButonu.click();
+        // Basarili olarak giris yapilamadigini test edin
+        // bunun icin hala login linklinin gorunur oldugunu test edelim
+        Assert.assertTrue(myCoursedemyPage.loginLinki.isEnabled());
+    }
 
-    @FindBy(xpath = "(//input[@name='email'])[1]")
-    public WebElement emailKutusu;
+    @Test
+    public void yanlisPasswordTesti(){
+        // 2- gecerli kullanici adi, yanlis password
+        myCoursedemyPage.emailKutusu.sendKeys(ConfigReader.getProperty("myGecerliEmail"));
+        myCoursedemyPage.passwordKutusu.sendKeys(ConfigReader.getProperty("myYanlisPassword"));
+        // Login butonuna basarak login olmaya calisin
+        myCoursedemyPage.loginButonu.click();
+        // Basarili olarak giris yapilamadigini test edin
+        Assert.assertTrue(myCoursedemyPage.loginLinki.isEnabled());
+    }
 
-    @FindBy(xpath = "(//input[@name='password'])[1]")
-    public WebElement passwordKutusu;
+    @Test
+    public void yanlisEmailSifreTesti(){
+        // 3- yanlis kullanici adi, yanlis password
+        myCoursedemyPage.emailKutusu.sendKeys(ConfigReader.getProperty("myYanlisEmail"));
+        myCoursedemyPage.passwordKutusu.sendKeys(ConfigReader.getProperty("myYanlisPassword"));
+        // Login butonuna basarak login olmaya calisin
+        myCoursedemyPage.loginButonu.click();
+        // Basarili olarak giris yapilamadigini test edin
+        Assert.assertTrue(myCoursedemyPage.loginLinki.isEnabled());
+    }
 
-    @FindBy(xpath = "//button[text()='Login']")
-    public WebElement loginButonu;
 
-    @FindBy(xpath = "//*[text()=' Logged in as ']")
-    public WebElement loggedinAs;
 
-    @FindBy(xpath = "//a[@href='/delete_account']")
-    public WebElement deleteAccountButton;
-
-    @FindBy (xpath = "//*[text()='Account Deleted!']")
-    public WebElement accountDeletedlocation;
+    @AfterClass
+    public void teardown(){
+        ReusableMethods.bekle(5);
+        Driver.closeDriver();
+    }
 }
