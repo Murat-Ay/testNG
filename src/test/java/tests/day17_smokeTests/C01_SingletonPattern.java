@@ -12,7 +12,6 @@ public class C01_SingletonPattern {
     @Test
     public void test01(){
         // amazon anasayfaya gidin
-
         // Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
 
         /* Tum class'lardan yapabildigimiz gibi Driver class'indan da
