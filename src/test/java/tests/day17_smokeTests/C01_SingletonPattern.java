@@ -3,7 +3,6 @@ package tests.day17_smokeTests;
 import org.testng.annotations.Test;
 import utilities.ConfigReader;
 import utilities.Driver;
-
 public class C01_SingletonPattern {
 
     /*  Soingleton pattern bir class'dan obje olusturulmasini engelleyen
@@ -28,8 +27,7 @@ public class C01_SingletonPattern {
           kimse Driver class'indan obje olusturamaz
           Bunun icin gorunur parametresiz bir constructor olusturup
           bunu private yapariz
-          Bu yonteme SINGLETON PATTERN denir.
-         */
+          Bu yonteme SINGLETON PATTERN denir.   */
 
         // Driver driver= new Driver();
 
