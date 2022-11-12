@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de87d5ae-c0b4-412b-bde8-45f68c6412ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18_testNGReports_paralelTesting/C03_RaporluTestOlusturma.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18_testNGReports_paralelTesting/C04_SmokeTestRaporlu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day18_testNGReports_paralelTesting/C04_SmokeTestRaporlu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day18_testNGReports_paralelTesting/C04_SmokeTestRaporlu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C03_RaporluTestOlusturma">
+  <component name="RunManager" selected="TestNG.C04_SmokeTestRaporlu">
     <configuration name="C01_ReusableMethodsWindowshandle" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.testNG" />
       <extension name="coverage">
@@ -94,6 +93,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C04_SmokeTestRaporlu" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day18_testNGReports_paralelTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day18_testNGReports_paralelTesting" />
+      <option name="MAIN_CLASS_NAME" value="tests.day18_testNGReports_paralelTesting.C04_SmokeTestRaporlu" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NegatifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.testNG" />
       <extension name="coverage">
@@ -111,30 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PozitifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.smokeTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.smokeTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.smokeTests.PozitifLoginTesti" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C04_SmokeTestRaporlu" />
         <item itemvalue="TestNG.C03_RaporluTestOlusturma" />
         <item itemvalue="TestNG.C02_ReusableMethodsElementList" />
         <item itemvalue="TestNG.C01_ReusableMethodsWindowshandle" />
         <item itemvalue="TestNG.NegatifLoginTesti" />
-        <item itemvalue="TestNG.PozitifLoginTesti" />
       </list>
     </recent_temporary>
   </component>
