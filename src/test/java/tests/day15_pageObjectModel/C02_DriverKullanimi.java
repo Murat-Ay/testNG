@@ -7,11 +7,9 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import utilities.Driver;
 import utilities.ReusableMethods;
-
 public class C02_DriverKullanimi {
 
     // bir test methodu olusturun
-
     @Test
     public void test01(){
         // 1- amazon'a gidin, basliginin amazon icerdigini dogrulayin
@@ -25,8 +23,7 @@ public class C02_DriverKullanimi {
         WebElement aramaKutusu=Driver.getDriver().findElement(By.id("twotabsearchtextbox"));
         aramaKutusu.sendKeys("Nutella" + Keys.ENTER);
 
-        WebElement aramaSonucElementi=
-                Driver.getDriver().findElement(By.xpath("//div[@class=\"a-section a-spacing-small a-spacing-top-small\"]"));
+        WebElement aramaSonucElementi= Driver.getDriver().findElement(By.xpath("//div[@class=\"a-section a-spacing-small a-spacing-top-small\"]"));
         String arananKelime="Nutella";
         String actualAramaSonucu= aramaSonucElementi.getText();
 
