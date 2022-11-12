@@ -18,10 +18,8 @@ public class C02_DriverKullanimi {
         Driver.getDriver().get("https://www.amazon.com");
         String expectedKelime="Amazon";
         String actualTitle=Driver.getDriver().getTitle();
-
         SoftAssert softAssert=new SoftAssert();
         softAssert.assertTrue(actualTitle.contains(expectedKelime),"baslik amazon icermiyor");
-
         // 2- nutella icin arama yapin ve sonuclarin nutella icerdigini dogrulayin
 
         WebElement aramaKutusu=Driver.getDriver().findElement(By.id("twotabsearchtextbox"));
