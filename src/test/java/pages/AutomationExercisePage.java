@@ -8,8 +8,9 @@ import utilities.Driver;
 public class AutomationExercisePage {
 
     public AutomationExercisePage(){
-    PageFactory.initElements(Driver.getDriver(),this);
+        PageFactory.initElements(Driver.getDriver(),this);
     }
+
     @FindBy(linkText = " Signup / Login")
     public WebElement signUpLinki;
 
@@ -25,3 +26,4 @@ public class AutomationExercisePage {
     @FindBy(xpath = "//button[text()='Login']")
     public WebElement loginButonu;
 }
+
