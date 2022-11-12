@@ -20,7 +20,6 @@ public class NegatifLoginTesti {
         myCoursedemyPage.loginLinki.click();
     }
 
-
     // uc farkli test method'u ile yanlis bilgilerle giris yapilamadigini test edin
     @Test
     public void yanlisKullaniciTesti(){
