@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import utilities.Driver;
 
 public class C01_DriverIlkClass {
-        /*  POM de 4 farkli dosyadan ihtiyacimiz olan bilgileri aliriz
+    /*  POM de 4 farkli dosyadan ihtiyacimiz olan bilgileri aliriz
       1- Driver class == driver
       2- pages package altindaki page class'lari == locate
       3- configurtaion.properties dosyasi == test datalari

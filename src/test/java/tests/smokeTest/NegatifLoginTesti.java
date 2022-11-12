@@ -33,7 +33,6 @@ public class NegatifLoginTesti {
         // bunun icin hala login linklinin gorunur oldugunu test edelim
         Assert.assertTrue(myCoursedemyPage.loginLinki.isEnabled());
     }
-
     @Test
     public void yanlisPasswordTesti(){
         // 2- gecerli kullanici adi, yanlis password
