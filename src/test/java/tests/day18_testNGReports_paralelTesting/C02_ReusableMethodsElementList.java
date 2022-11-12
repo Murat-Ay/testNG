@@ -29,7 +29,5 @@ public class C02_ReusableMethodsElementList {
         List<String> optionsStringListesi= ReusableMethods.getElementsText( optionsElementList );
         Assert.assertTrue( optionsStringListesi.contains("dropdownArananOption") );
         Driver.closeDriver();
-
-
     }
 }
