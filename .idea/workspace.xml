@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de87d5ae-c0b4-412b-bde8-45f68c6412ca" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18_testNG/C01_ReusableMethodsWindowshandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day18_testNGReports_paralelTesting/C01_ReusableMethodsWindowshandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day18_testNGReports_paralelTesting/C01_ReusableMethodsWindowshandle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,24 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.NegatifLoginTesti">
+  <component name="RunManager" selected="TestNG.C01_ReusableMethodsWindowshandle">
+    <configuration name="C01_ReusableMethodsWindowshandle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.testNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.day18_testNGReports_paralelTesting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.day18_testNGReports_paralelTesting" />
+      <option name="MAIN_CLASS_NAME" value="tests.day18_testNGReports_paralelTesting.C01_ReusableMethodsWindowshandle" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C06_AutomationExercise" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.testNG" />
       <extension name="coverage">
@@ -69,23 +86,6 @@
       <option name="MAIN_CLASS_NAME" value="tests.day15_pageObjectModel.C06_AutomationExercise" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C07_AutomationExercise" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.testNG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day15_pageObjectModel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day15_pageObjectModel" />
-      <option name="MAIN_CLASS_NAME" value="tests.day15_pageObjectModel.C07_AutomationExercise" />
-      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C01_ReusableMethodsWindowshandle" />
         <item itemvalue="TestNG.NegatifLoginTesti" />
         <item itemvalue="TestNG.PozitifLoginTesti" />
         <item itemvalue="TestNG.C06_AutomationExercise" />
         <item itemvalue="TestNG.C06_AutomationExercise.test01" />
-        <item itemvalue="TestNG.C07_AutomationExercise" />
       </list>
     </recent_temporary>
   </component>
