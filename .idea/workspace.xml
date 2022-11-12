@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de87d5ae-c0b4-412b-bde8-45f68c6412ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day18_testNGReports_paralelTesting/C01_ReusableMethodsWindowshandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day18_testNGReports_paralelTesting/C01_ReusableMethodsWindowshandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18_testNGReports_paralelTesting/C02_ReusableMethodsElementList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
