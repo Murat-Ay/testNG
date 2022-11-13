@@ -9,7 +9,7 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-public class C01_dataProvider {
+public class C01_DataProvider {
     @DataProvider
     public static Object[][] AranacakKelimeProvider() {
 
