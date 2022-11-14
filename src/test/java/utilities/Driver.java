@@ -14,7 +14,6 @@ public class Driver {
         // Singleton pattern konsepti ile
         // Driver class'indan obje olusturmayi engellemek icin bu cons.'i olusturduk
     }
-
     static WebDriver driver;
     public static WebDriver getDriver(){
 
@@ -41,20 +40,16 @@ public class Driver {
                 default:
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
-
             }
         }
-
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.manage().window().maximize();
         return driver;
     }
-
     public static void closeDriver(){
         if (driver!=null){
             driver.close();
             driver=null;
         }
-
     }
 }
