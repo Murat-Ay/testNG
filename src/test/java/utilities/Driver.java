@@ -1,15 +1,12 @@
 package utilities;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-
 import java.time.Duration;
 
 public class Driver {
-
     private Driver(){
         // Singleton pattern konsepti ile
         // Driver class'indan obje olusturmayi engellemek icin bu cons.'i olusturduk

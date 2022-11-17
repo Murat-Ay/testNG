@@ -1,20 +1,16 @@
 package utilities;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
-
 import java.time.Duration;
-
 public class CrossDriver {
 
     private CrossDriver(){
         // Singleton pattern konsepti ile
         // Driver class'indan obje olusturmayi engellemek icin bu cons.'i olusturduk
     }
-
     static WebDriver driver;
     public static WebDriver getDriver(String browser){
 
@@ -22,8 +18,6 @@ public class CrossDriver {
 
         if(driver==null) {// method ilk cagrildiginda driver degeri atanmamis oldugundan deger ata
             // sonraki calistirmalarda degeri atanmis oldugundan 18.satir calismayacak
-
-
 
             switch (browser){
                 case "chrome" :
