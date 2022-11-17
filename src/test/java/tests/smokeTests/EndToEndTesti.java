@@ -7,11 +7,9 @@ import utilities.ConfigReader;
 import utilities.Driver;
 
 public class EndToEndTesti {
-    /*
-      E2E (End to end testi, uctan uca bir islevin tum asamalarini
+    /*  E2E (End to end testi, uctan uca bir islevin tum asamalarini
       gerceklestirerek, islevin calistigini test etmek demektir
-       Bir uygulamada bircok e2e testi olabilir
-     */
+       Bir uygulamada bircok e2e testi olabilir   */
 
     @Test
     public void e2eKursOlusturmaTesti(){

@@ -41,7 +41,7 @@
 }</component>
   <component name="RunManager" selected="TestNG.C04_SmokeTestRaporlu">
     <configuration name="C01_ReusableMethodsWindowshandle" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.testNG" />
+      <module name="com.testNgPOM_Fall2022" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.day18_testNGReports_paralelTesting.*" />
@@ -58,7 +58,7 @@
       </method>
     </configuration>
     <configuration name="C02_ReusableMethodsElementList" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.testNG" />
+      <module name="com.testNgPOM_Fall2022" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.day18_testNGReports_paralelTesting.*" />
@@ -75,7 +75,7 @@
       </method>
     </configuration>
     <configuration name="C03_RaporluTestOlusturma" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.testNG" />
+      <module name="com.testNgPOM_Fall2022" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.day18_testNGReports_paralelTesting.*" />
@@ -92,7 +92,7 @@
       </method>
     </configuration>
     <configuration name="C04_SmokeTestRaporlu" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.testNG" />
+      <module name="com.testNgPOM_Fall2022" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.day18_testNGReports_paralelTesting.*" />
@@ -109,7 +109,7 @@
       </method>
     </configuration>
     <configuration name="NegatifLoginTesti" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.testNG" />
+      <module name="com.testNgPOM_Fall2022" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.smokeTests.*" />
