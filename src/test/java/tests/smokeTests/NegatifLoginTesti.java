@@ -11,7 +11,6 @@ import utilities.ReusableMethods;
 
 public class NegatifLoginTesti {
     MyCoursedemyPage myCoursedemyPage=new MyCoursedemyPage();
-
     @BeforeClass
     public void setup(){
         // Mycoursedemy anasayfasina gidin
