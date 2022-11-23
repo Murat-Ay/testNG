@@ -18,7 +18,6 @@ public class NegatifLoginTesti {
         // login linkine basin
         myCoursedemyPage.loginLinki.click();
     }
-
     // uc farkli test method'u ile yanlis bilgilerle giris yapilamadigini test edin
     @Test
     public void yanlisKullaniciTesti(){
@@ -41,7 +40,6 @@ public class NegatifLoginTesti {
         // Basarili olarak giris yapilamadigini test edin
         Assert.assertTrue(myCoursedemyPage.loginLinki.isEnabled());
     }
-
     @Test
     public void yanlisEmailSifreTesti(){
         // 3- yanlis kullanici adi, yanlis password
@@ -52,7 +50,6 @@ public class NegatifLoginTesti {
         // Basarili olarak giris yapilamadigini test edin
         Assert.assertTrue(myCoursedemyPage.loginLinki.isEnabled());
     }
-
     @AfterClass
     public void teardown(){
         ReusableMethods.bekle(5);
