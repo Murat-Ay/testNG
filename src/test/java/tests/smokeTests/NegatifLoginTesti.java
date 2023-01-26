@@ -40,6 +40,7 @@ public class NegatifLoginTesti {
         // Basarili olarak giris yapilamadigini test edin
         Assert.assertTrue(myCoursedemyPage.loginLinki.isEnabled());
     }
+
     @Test
     public void yanlisEmailSifreTesti(){
         // 3- yanlis kullanici adi, yanlis password
