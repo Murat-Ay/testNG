@@ -41,6 +41,7 @@ public class NegatifLoginTesti {
         Assert.assertTrue(myCoursedemyPage.loginLinki.isEnabled());
     }
 
+
     @Test
     public void yanlisEmailSifreTesti(){
         // 3- yanlis kullanici adi, yanlis password
