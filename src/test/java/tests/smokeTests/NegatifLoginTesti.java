@@ -31,6 +31,7 @@ public class NegatifLoginTesti {
         Assert.assertTrue(myCoursedemyPage.loginLinki.isEnabled());
     }
 
+
     @Test
     public void yanlisPasswordTesti(){
         // 2- gecerli kullanici adi, yanlis password
@@ -53,6 +54,7 @@ public class NegatifLoginTesti {
         // Basarili olarak giris yapilamadigini test edin
         Assert.assertTrue(myCoursedemyPage.loginLinki.isEnabled());
     }
+
     @AfterClass
     public void teardown(){
         ReusableMethods.bekle(5);
