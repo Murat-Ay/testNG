@@ -8,8 +8,6 @@ import utilities.Driver;
 import utilities.ReusableMethods;
 
 public class PozitifLoginTesti {
-
-
     @Test
     public void pozitifLoginTesti(){
         // Mycoursedemy anasayfasina gidin
